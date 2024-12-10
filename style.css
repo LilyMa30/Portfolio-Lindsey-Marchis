@@ -1,3 +1,24 @@
+/* Déclaration des variables CSS dans la section :root */
+:root {
+  --main-font: 'Arial', sans-serif;
+  --secondary-font: 'Georgia', serif;
+  --primary-color: #333;
+  --secondary-color: #fff;
+}
+
+/* Application des variables */
+body {
+  font-family: var(--main-font);
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+header {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  text-align: center;
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
